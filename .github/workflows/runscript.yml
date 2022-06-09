@@ -2,14 +2,14 @@ name: run script
 on: [push]
 jobs:
   run_tests:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Run script file
         run: |
           chmod +x ./public/scripts/test.sh
           ./public/scripts/test.sh
-        shell: pwsh
+        shell: bash
 
 
 
