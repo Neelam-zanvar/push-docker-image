@@ -9,7 +9,7 @@ jobs:
         run: |
           chmod +x ./public/scripts/test.sh
           ./public/scripts/test.sh
-        shell: powershell
+        shell: cmd
 
 
 
