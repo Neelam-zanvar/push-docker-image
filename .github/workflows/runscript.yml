@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run script file
         run: |
-          ./public/scripts/test.bat
+          ./public/scripts/test.sh
         shell: bash
 
 
