@@ -9,7 +9,7 @@ jobs:
         run: |
           chmod +x ./public/scripts/test.bat
           ./public/scripts/test.bat
-        shell: pwsh
+        shell: bash
 
 
 
