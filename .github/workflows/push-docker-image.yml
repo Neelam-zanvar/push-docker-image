@@ -1,6 +1,6 @@
 name: push docker image 
 on: [push] # When pushing to any branch then run this action
-# Env variable
+
 env:
   DOCKER_USER: ${{secrets.DOCKER_USERNAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
